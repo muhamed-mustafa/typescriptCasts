@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const NumbersCollection_1 = require("./NumbersCollection");
+const CharactersCollection_1 = require("./CharactersCollection");
+const numbersCollection = new NumbersCollection_1.NumbersCollection([-2, 1, 0, 10, 100]);
+numbersCollection.sort();
+console.log(numbersCollection);
+const charactersCollection = new CharactersCollection_1.CharactersCollection('baaxs');
+charactersCollection.sort();
+console.log(charactersCollection.data);
